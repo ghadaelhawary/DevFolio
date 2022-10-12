@@ -1,0 +1,303 @@
+
+
+:root{
+    --redcolor:#ed3c0d;
+    --gray:#f0ececf6;
+}
+
+/*header section style */
+header.header{
+    background-image: url("../assets/asset\ 11.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.par-animation::after{
+    content: " |";
+    animation-name: jobs-ani;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jobs-ani {
+    2%{
+        content: "D|";
+    }
+    4%{
+        content: "De|";
+    }
+    6%{
+        content: "Dev|";
+    }
+    8%{
+        content: "Deve|";
+    }
+    10%{
+        content: "Devel|";
+    }
+    12%{
+        content: "Develo|";
+    }
+    14%{
+        content: "Develop|";
+    }
+    16%{
+        content: "Develope|";
+    }
+    18%{
+        content: "Developer|";
+    }
+    20%{
+        content: "Develope|";
+    }
+    22%{
+        content: "Develop|";
+    }
+    24%{
+        content: "Develo|";
+    }
+    26%{
+        content: "Devel|";
+    }
+    28%{
+        content: "Deve|";
+    }
+    30%{
+        content: "Dev|";
+    }
+    32%{
+        content: "De|";
+    }
+    34%{
+        content: "D|";
+    }
+    36%{
+        content: "De|";
+    }
+    38%{
+        content: "Des|";
+    }
+    40%{
+        content: "Desi|";
+    }
+    42%{
+        content: "Desig|";
+    }
+    44%{
+        content: "Design|";
+    }
+    46%{
+        content: "Designe|";
+    }
+    48%{
+        content: "Designer|";
+    }
+    50%{
+        content: "Designe|";
+    }
+    52%{
+        content: "Design|";
+    }
+    54%{
+        content: "Desig|";
+    }
+    56%{
+        content: "Desi|";
+    }
+    58%{
+        content: "Des|";
+    }
+    60%{
+        content: "De|";
+    }
+    62%{
+        content: "D|";
+    }
+   
+    66%{
+        content: "f|";
+    }
+    68%{
+        content: "fr|";
+    }
+    70%{
+        content: "fre|";
+    }
+    72%{
+        content: "free|";
+    }
+    74%{
+        content: "freel|";
+    }
+    76%{
+        content: "freela|";
+    }
+    78%{
+        content: "freelan|";
+    }
+    80%{
+        content: "freelanc|";
+    }
+    82%{
+        content: "freelance|";
+    }
+    84%{
+        content: "freelancer|";
+    }
+    86%{
+        content: "freelance|";
+    }
+    88%{
+        content: "freelanc|";
+    }
+    90%{
+        content: "freelan|";
+    }
+    92%{
+        content: "freela|";
+    }
+    94%{
+        content: "freel|";
+    }
+    96%{
+        content: "free|";
+    }
+    97%{
+        content: "fre|";
+    }
+    98%{
+        content: "fr|";
+    }
+    100%{
+        content: "f|";
+    }
+    
+}
+
+/*about section style*/
+.about-sec , .servise-sec , .portofoilo-sec, body, .blog-sec{
+    background-color: var(--gray);
+}
+
+.about-info-title{
+    position: relative;
+}
+
+.about-info-title::after{
+    content: " ";
+    width: 6rem;
+    height: .2rem;
+    background-color: blue;
+    position: absolute;
+    top: 2.8rem;
+    left: 0;
+
+}
+
+
+/*services style */
+.services-title{
+    position: relative;
+}
+.services-title::after{
+    position: absolute;
+    content: " ";
+    top: 6rem;
+    text-align: center;
+    height: .2rem;
+    width: 2.5rem;
+    background-color: blue;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.servise-sec .icon-container{
+    width: 6rem;
+    height: 6rem;
+   
+}
+
+/*number section */
+.number-sec{
+    background-image:linear-gradient( rgba(10, 39, 201, 0.795),rgba(23, 56, 245, 0.767)), url("../assets/asset\ 10.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    
+}
+
+/*blog style*/
+.blog-info{
+    position: relative;
+}
+.blog-move{
+    position: absolute!important;
+    top: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+/*contact section */
+.contact{
+    background-image:linear-gradient( rgba(10, 39, 201, 0.795),rgba(23, 56, 245, 0.767)), url("/assets/asset\ 13.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+
+.contact .social-div{
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: blue;
+}
+.contact
+.contact-title{
+    position: relative;
+}
+.contact .contact-title::after{
+    content: " ";
+    width: 6rem;
+    height: .2rem;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 3rem;
+}
+
+
+/*footer*/
+.footer{
+    background-color: blue;
+}
+
+
+/*slider */
+.slider-sec{
+    
+        background-image:linear-gradient( rgba(10, 39, 201, 0.795),rgba(23, 56, 245, 0.767)), url("/assets/asset\ 13.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 60vh;
+    
+}
+
+
+
+.client-info img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    transform: translateY(100%);
+}
